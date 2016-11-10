@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.dionimfxgmail.avaliacao.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:text="Calculadora"
+                android:id="@+id/bt_menu_calculadora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/ico_calc"
+                android:drawableStart="@mipmap/ico_calc"
+                android:background="@drawable/botao_menu" />
+
+            <Button
+                android:text="Cadastro de Livros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/ico_livro"
+                android:drawableStart="@mipmap/ico_livro"
+                android:id="@+id/bt_menu_cadastro_livro"
+                android:background="@drawable/botao_menu" />
+
+            <Button
+                android:text="Consulta Livro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_menu_consulta"
+                android:background="@drawable/botao_menu"/>
+
+            <Button
+                android:text="Animações"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_menu_animacao"
+                android:background="@drawable/botao_menu"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

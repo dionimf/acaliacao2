@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_centerHorizontal="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:text="Cadastro Nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="49dp"
+                android:id="@+id/tv_cadl_nome"
+                android:textSize="14sp"
+
+                android:textColor="#000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/ent_cadl_autor"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:text="Editora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_cadl_editora"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/ent_cadl_editora"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="Genero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="Tipo de Media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:text="Digital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton" />
+
+            <RadioButton
+                android:text="Impresso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton2" />
+
+            <TextView
+                android:text="Quantidade para Distribuição"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="#000" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="horizontal">
+        <Button
+            android:text="Cadastrar"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/bt_cadl_cadastrar"
+            android:textSize="15sp"
+            android:background="@color/botoes_trabalho"
+            android:textColor="?android:attr/fastScrollTextColor"
+            />
+
+        <Button
+            android:text="Cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_cadl_cancelar"
+            android:textSize="15sp"
+            android:background="@color/botoes_trabalho"
+            android:textColor="?android:attr/fastScrollTextColor"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

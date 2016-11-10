@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/colorPrimaryDark">
+
+    <EditText
+        android:layout_width="match_parent"
+
+
+        android:text=""
+        android:ems="10"
+        android:id="@+id/ent_resultado"
+        tools:textSize="36sp"
+        android:layout_gravity="center_vertical"
+        tools:ignore="Deprecated,Suspicious0dp"
+        android:layout_height="50sp"
+        tools:layout_weight="6"
+        android:layout_weight="5"
+        android:background="@color/cor_entrada_dados"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="60sp"
+
+        android:enabled="true"
+        android:editable="false"
+        android:inputType=""
+        android:maxLines="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        tools:layout_weight="1">
+
+        <Button
+            android:text="@string/bt_calc_num7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_num7"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:textSize="36sp"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_num8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bt_calc_num8"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_num9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bt_calc_num9"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_operacao_cls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_cls"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:text="@string/bt_calc_num4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bt_calc_num4"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:textSize="36sp"
+            android:background="@color/botoes_trabalho"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_num5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bt_calc_num5"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_num6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bt_calc_num6"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_operador_divisao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bt_calc_operacao_divisao"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textColor="@color/cor_texto_calculadora" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:text="@string/bt_calc_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_num1"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_num2"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_num3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_num3"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_operador_multiplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_operador_multiplicacao"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:text="@string/bt_calc_num0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_num0"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_operador_igual"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_operador_igual"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_operador_subtracao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_operador_subtracao"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            tools:ignore="ButtonStyle"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+
+        <Button
+            android:text="@string/bt_calc_operador_somar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bt_calc_operador_soma"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle"
+            android:layout_margin="@dimen/margem_botoes_calduladora"
+            android:layout_marginBottom="@dimen/margem_botoes_calduladora"
+            android:layout_marginEnd="@dimen/margem_botoes_calduladora"
+            android:layout_marginLeft="@dimen/margem_botoes_calduladora"
+            android:layout_marginRight="@dimen/margem_botoes_calduladora"
+            android:layout_marginStart="@dimen/margem_botoes_calduladora"
+            android:layout_marginTop="@dimen/margem_botoes_calduladora"
+            android:textSize="36sp"
+            android:background="@color/botoes_trabalho"
+            android:textColor="@color/cor_texto_calculadora" />
+    </LinearLayout>
+
+</LinearLayout>

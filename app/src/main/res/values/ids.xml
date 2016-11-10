@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bt_login_logar" type="id">bt_login_logar</item>
+    <item name="bt_login_cancelar" type="id">bt_login_cancelar</item>
+</resources>
