@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark"
+    android:background="#cdcdcd"
     android:layout_centerHorizontal="true">
 
     <ScrollView
@@ -79,7 +79,7 @@
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/spinner"
+                android:id="@+id/ent_generos"
                 android:layout_marginTop="5dp"/>
 
             <TextView
@@ -89,17 +89,26 @@
                 android:id="@+id/textView2"
                 android:textColor="#000" />
 
-            <RadioButton
-                android:text="Digital"
+            <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioButton" />
+                android:layout_height="match_parent"
+                android:id="@+id/ent_radio_grupo">
 
-            <RadioButton
-                android:text="Impresso"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioButton2" />
+                <RadioButton
+                    android:text="Digital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ent_digital"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Impresso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ent_impresso"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
 
             <TextView
                 android:text="Quantidade para Distribuição"
@@ -111,7 +120,7 @@
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/seekBar" />
+                android:id="@+id/ent_quantidade" />
 
             <TextView
                 android:text="Valor"
@@ -137,24 +146,15 @@
         android:orientation="horizontal">
         <Button
             android:text="Cadastrar"
-            android:layout_width="189dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
             android:id="@+id/bt_cadl_cadastrar"
             android:textSize="15sp"
-            android:background="@color/botoes_trabalho"
+            android:background="#393939"
             android:textColor="?android:attr/fastScrollTextColor"
             />
 
-        <Button
-            android:text="Cancelar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/bt_cadl_cancelar"
-            android:textSize="15sp"
-            android:background="@color/botoes_trabalho"
-            android:textColor="?android:attr/fastScrollTextColor"
-            />
     </LinearLayout>
 
 </LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
-    android:background="@color/colorPrimaryDark">
+    android:background="#cdcdcd">
 
     <EditText
         android:layout_width="match_parent"
@@ -20,8 +20,8 @@
         android:layout_height="50sp"
         tools:layout_weight="6"
         android:layout_weight="5"
-        android:background="@color/cor_entrada_dados"
-        android:textColor="?attr/actionMenuTextColor"
+        android:background="#cdcdcd"
+        android:textColor="#000"
         android:textSize="60sp"
 
         android:enabled="true"
@@ -53,8 +53,8 @@
             android:layout_marginRight="@dimen/margem_botoes_calduladora"
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_num8"
@@ -71,8 +71,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_num9"
@@ -89,8 +89,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_operacao_cls"
@@ -107,8 +107,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
     </LinearLayout>
 
@@ -126,7 +126,7 @@
             android:id="@+id/bt_calc_num4"
             tools:ignore="ButtonStyle,NestedWeights"
             android:textSize="36sp"
-            android:background="@color/botoes_trabalho"
+            android:background="#393939"
             android:layout_margin="@dimen/margem_botoes_calduladora"
             android:layout_marginBottom="@dimen/margem_botoes_calduladora"
             android:layout_marginEnd="@dimen/margem_botoes_calduladora"
@@ -134,7 +134,7 @@
             android:layout_marginRight="@dimen/margem_botoes_calduladora"
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_num5"
@@ -144,7 +144,7 @@
             android:id="@+id/bt_calc_num5"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
+            android:background="#393939"
             android:layout_margin="@dimen/margem_botoes_calduladora"
             android:layout_marginBottom="@dimen/margem_botoes_calduladora"
             android:layout_marginEnd="@dimen/margem_botoes_calduladora"
@@ -152,7 +152,7 @@
             android:layout_marginRight="@dimen/margem_botoes_calduladora"
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_num6"
@@ -162,7 +162,7 @@
             android:id="@+id/bt_calc_num6"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
+            android:background="#393939"
             android:layout_margin="@dimen/margem_botoes_calduladora"
             android:layout_marginBottom="@dimen/margem_botoes_calduladora"
             android:layout_marginEnd="@dimen/margem_botoes_calduladora"
@@ -170,7 +170,7 @@
             android:layout_marginRight="@dimen/margem_botoes_calduladora"
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_operador_divisao"
@@ -180,7 +180,7 @@
             android:id="@+id/bt_calc_operacao_divisao"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
+            android:background="#393939"
             android:layout_margin="@dimen/margem_botoes_calduladora"
             android:layout_marginBottom="@dimen/margem_botoes_calduladora"
             android:layout_marginEnd="@dimen/margem_botoes_calduladora"
@@ -188,7 +188,7 @@
             android:layout_marginRight="@dimen/margem_botoes_calduladora"
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:textColor="#fff"  />
     </LinearLayout>
 
     <LinearLayout
@@ -212,8 +212,8 @@
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_num2"
@@ -230,8 +230,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_num3"
@@ -248,8 +248,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_operador_multiplicar"
@@ -266,8 +266,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
     </LinearLayout>
 
     <LinearLayout
@@ -291,8 +291,8 @@
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_operador_igual"
@@ -309,8 +309,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_operador_subtracao"
@@ -327,8 +327,8 @@
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
             tools:ignore="ButtonStyle"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff"  />
 
         <Button
             android:text="@string/bt_calc_operador_somar"
@@ -345,8 +345,8 @@
             android:layout_marginStart="@dimen/margem_botoes_calduladora"
             android:layout_marginTop="@dimen/margem_botoes_calduladora"
             android:textSize="36sp"
-            android:background="@color/botoes_trabalho"
-            android:textColor="@color/cor_texto_calculadora" />
+            android:background="#393939"
+            android:textColor="#fff" />
     </LinearLayout>
 
 </LinearLayout>

@@ -3,8 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark"
-    android:layout_centerHorizontal="true">
+    android:background="#cdcdcd"
+    android:layout_centerHorizontal="true"
+    >
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -111,7 +112,7 @@
 
             android:id="@+id/bt_cadl_cadastrar"
             android:textSize="15sp"
-            android:background="@color/botoes_trabalho"
+            android:background="#393939"
             android:textColor="?android:attr/fastScrollTextColor"
             />
 
@@ -121,7 +122,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/bt_cadl_cancelar"
             android:textSize="15sp"
-            android:background="@color/botoes_trabalho"
+            android:background="#393939"
             android:textColor="?android:attr/fastScrollTextColor"
             />
     </LinearLayout>
