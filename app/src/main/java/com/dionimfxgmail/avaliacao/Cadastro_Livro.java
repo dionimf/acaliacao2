@@ -35,7 +35,7 @@ public class Cadastro_Livro extends AppCompatActivity {
     String tipomedia;
     CheckBox ent_cadl_tipo_obra;
     int qtd;
-    Intent notificationIntent = new Intent(this, Notificacao.class);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -70,8 +70,14 @@ public class Cadastro_Livro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String Nome,Autor,Editora,TipoObra,TipoMedia;
+                String Nome="",Autor="",Editora="",TipoObra="",TipoMedia="";
+                Nome=ent_cadl_nome.getText().toString();
+                Autor=ent_cadl_autor.getText().toString();
+                Editora=ent_cadl_editora.getText().toString();
 
+                Banco banco= new Banco();
+                banco.banco(Nome,Autor,Editora,TipoMedia,TipoObra);
+                notificacao(View view));
 
             }
         });
@@ -96,7 +102,7 @@ public class Cadastro_Livro extends AppCompatActivity {
 
 
     }
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT_WATCH)
+
     public void notificacao(View view){
         Intent notificationIntent = new Intent(this,Notificacao.class);
         Intent cadastrolivroIntent = new Intent(this, Cadastro_Livro.class);
@@ -108,12 +114,12 @@ public class Cadastro_Livro extends AppCompatActivity {
         PendingIntent ConsultaPendingIntent = PendingIntent.getActivity(this, (int) System.currentTimeMillis(), consultalivroIntent, 0);
 
 
-        Notification.Action action01 = new Notification.Action.Builder(R.drawable.ico_livro, "Ação 01", CadastroPendingIntent).build();
-        Notification.Action action02 = new Notification.Action.Builder(R.drawable.lupa, "Ação 02", ConsultaPendingIntent).build();
+        Notification.Action acaoCadastrar = new Notification.Action.Builder(R.drawable.ico_livro, "Ação 01", CadastroPendingIntent).build();
+        Notification.Action acaoConsultar = new Notification.Action.Builder(R.drawable.lupa, "Ação 02", ConsultaPendingIntent).build();
 
         String MensagemPequena="Cadastrar e Consultar Livros",MensagemGrande="Cadastrar e Consultar Livros para a coleção se tornou mais facil e pratico.";
         Notification notification = new Notification.Builder(this).setContentTitle("Avaliação 2").setContentText(MensagemPequena).setStyle(new Notification.BigTextStyle().bigText(MensagemGrande)).setSmallIcon(R.drawable.ico_livro).setContentIntent(notificationPendingIntent)
-                .setAutoCancel(true).addAction(action01).addAction(action02).build();
+                .setAutoCancel(true).addAction(acaoCadastrar).addAction(acaoConsultar).build();
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         notificationManager.notify(NOTIFICATION_ID, notification);
     }

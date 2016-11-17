@@ -9,7 +9,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="629dp">
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -148,19 +148,13 @@
                     android:id="@+id/tv_cadl_tipo_obra"
                     android:textColor="#000" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-                    <CheckBox
-                        android:text="Mangá"
-                        android:layout_width="196dp"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/ent_cadl_tp_manga" />
+                <CheckBox
+                    android:text="Mangá"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ent_cadl_tp_manga" />
 
-                </LinearLayout>
 
-                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
                     android:orientation="horizontal">
@@ -179,26 +173,19 @@
                         android:id="@+id/ent_cadl_valor" />
                     <Button
                         android:text="Cadastrar"
-                        android:layout_width="match_parent"
+                        android:layout_width="371dp"
                         android:layout_height="wrap_content"
 
                         android:id="@+id/bt_cadl_cadastrar"
                         android:textSize="15sp"
                         android:background="#393939"
                         android:textColor="?android:attr/fastScrollTextColor"
-                        />
+                        android:onClick="notificacao" />
 
-                </LinearLayout>
+
 
 
             </LinearLayout>
-
-
-
-
-
-
-
 
 
 
