@@ -9,152 +9,206 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="629dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="5dp">
-            <TextView
-                android:text="Nome do Livro"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="49dp"
-                android:id="@+id/tv_cadl_nome"
-                android:textSize="14sp"
-
-                android:textColor="#000" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/ent_cadl_nome"
-                android:textSize="14sp"
-                android:layout_marginTop="5dp"
-                />
-
-            <TextView
-                android:text="TextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_cadl_autor"
-                android:textColor="#000"
-                tools:text="Autor" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/ent_cadl_autor" />
-
-            <TextView
-                android:text="Editora"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_cadl_editora"
-                android:textSize="14sp"
-                android:layout_marginTop="5dp"
-                android:textColor="#000" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/ent_cadl_editora"
-                android:textSize="14sp"
-                android:layout_marginTop="5dp"/>
-
-            <TextView
-                android:text="Genero"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView"
-                android:textColor="#000"
-                android:layout_marginTop="5dp"/>
-
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/ent_generos"
-                android:layout_marginTop="5dp"/>
-
-            <TextView
-                android:text="Tipo de Media"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textColor="#000" />
-
-            <RadioGroup
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/ent_radio_grupo">
-
-                <RadioButton
-                    android:text="Digital"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp">
+                <TextView
+                    android:text="Nome do Livro"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/ent_digital"
-                    android:layout_weight="1" />
+                    android:layout_marginTop="49dp"
+                    android:id="@+id/tv_cadl_nome"
+                    android:textSize="14sp"
 
-                <RadioButton
-                    android:text="Impresso"
+                    android:textColor="#000" />
+
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/ent_impresso"
-                    android:layout_weight="1" />
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ent_cadl_nome"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    />
 
-            </RadioGroup>
+                <TextView
+                    android:text="Autor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_cadl_autor"
+                    android:textColor="#000"
+                    tools:text="Autor" />
 
-            <TextView
-                android:text="Quantidade para Distribuição"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView3"
-                android:textColor="#000" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ent_cadl_autor" />
 
-            <SeekBar
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/ent_quantidade" />
+                <TextView
+                    android:text="Editora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_cadl_editora"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000" />
 
-            <TextView
-                android:text="Valor"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView4"
-                android:textColor="#000" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ent_cadl_editora"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/ent_cadl_valor" />
+                <TextView
+                    android:text="Genero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ent_generos"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:text="Tipo de Media"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textColor="#000" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ent_radio_grupo">
+
+                    <RadioButton
+                        android:text="Digital"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_digital"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="Impresso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_impresso"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:text="Quantidade para Distribuição"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textColor="#000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <SeekBar
+                        android:layout_width="328dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_quantidade"
+                        android:max="200"
+                        android:layout_weight="0.28" />
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView5"
+                        android:layout_weight="0.24" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="Tipo de Obra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_cadl_tipo_obra"
+                    android:textColor="#000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:text="Mangá"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_cadl_tp_manga" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="Valor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView4"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/ent_cadl_valor" />
+                    <Button
+                        android:text="Cadastrar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:id="@+id/bt_cadl_cadastrar"
+                        android:textSize="15sp"
+                        android:background="#393939"
+                        android:textColor="?android:attr/fastScrollTextColor"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         </LinearLayout>
     </ScrollView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="84dp"
-        android:orientation="horizontal">
-        <Button
-            android:text="Cadastrar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
-            android:id="@+id/bt_cadl_cadastrar"
-            android:textSize="15sp"
-            android:background="#393939"
-            android:textColor="?android:attr/fastScrollTextColor"
-            />
-
-    </LinearLayout>
 
 </LinearLayout>
