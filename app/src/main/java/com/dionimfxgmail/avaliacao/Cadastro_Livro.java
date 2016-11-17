@@ -77,7 +77,7 @@ public class Cadastro_Livro extends AppCompatActivity {
 
                 Banco banco= new Banco();
                 banco.banco(Nome,Autor,Editora,TipoMedia,TipoObra);
-                notificacao(View view));
+                notificacao(view);
 
             }
         });
