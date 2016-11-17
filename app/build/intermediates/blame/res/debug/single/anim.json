@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
         "merged": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_out.xml"
     },
@@ -12,8 +16,16 @@
         "source": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
@@ -28,15 +40,43 @@
         "source": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_in.xml"
     },
     {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
         "merged": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
         "source": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_top.xml"
     },
     {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
         "merged": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\dioni\\Downloads\\Optativa 1 Dispositivos Moveis\\av2\\avaliacao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\FaculdadeProjetos\\2016 -2\\Desenvolvimento Mobile OPT1\\Projetos\\novaversao\\acaliacao2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     }
 ]

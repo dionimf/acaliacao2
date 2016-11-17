@@ -1,156 +1,214 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark"
+    android:background="#cdcdcd"
     android:layout_centerHorizontal="true">
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="629dp">
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
-            <TextView
-                android:text="Cadastro Nome"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="49dp"
-                android:id="@+id/tv_cadl_nome"
-                android:textSize="36sp"
-                android:textAlignment="center" />
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp">
+                <TextView
+                    android:text="Nome do Livro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="49dp"
+                    android:id="@+id/tv_cadl_nome"
+                    android:textSize="14sp"
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Autor"
-                android:ems="10"
-                android:id="@+id/ent_cadl_autor"
-                android:textSize="36sp"
-                />
+                    android:textColor="#000" />
 
-            <TextView
-                android:text="Editora"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_cadl_editora"
-                android:textSize="36sp"
-                android:textAlignment="center" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ent_cadl_nome"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Editora"
-                android:ems="10"
-                android:id="@+id/ent_cadl_editora"
-                android:textSize="36sp" />
+                <TextView
+                    android:text="Autor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_cadl_autor"
+                    android:textColor="#000"
+                    tools:text="Autor" />
 
-            <TextView
-                android:text="Tipo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_cadl_tipo"
-                android:textSize="36sp"
-                android:textAlignment="center" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ent_cadl_autor" />
 
-            <CheckBox
-                android:text="tipo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="21dp"
-                android:id="@+id/cb_cadl_tipo"
-                android:textSize="36sp"
-                android:layout_marginRight="32dp"
-                android:layout_marginEnd="32dp" />
+                <TextView
+                    android:text="Editora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_cadl_editora"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000" />
 
-            <CheckBox
-                android:text="tipo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/cb_cadl_tipo2"
-                android:textSize="36sp"
-                />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ent_cadl_editora"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"/>
 
-            <TextView
-                android:text="genero"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_cadl_genero"
-                android:textSize="36sp"
-                android:textAlignment="center" />
+                <TextView
+                    android:text="Genero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/ent_cadl_genero"
-                android:textSize="36sp"
-                android:textAlignment="center"
-                android:layout_marginTop="13dp"
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ent_generos"
+                    android:layout_marginTop="5dp"/>
 
-                />
+                <TextView
+                    android:text="Tipo de Media"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textColor="#000" />
 
-            <TextView
-                android:text="descricao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_cadl_descricao"
-                android:textSize="36sp" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ent_radio_grupo">
+
+                    <RadioButton
+                        android:text="Digital"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_digital"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="Impresso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_impresso"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:text="Quantidade para Distribuição"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textColor="#000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <SeekBar
+                        android:layout_width="328dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_quantidade"
+                        android:max="200"
+                        android:layout_weight="0.28" />
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_cadl_qtd"
+                        android:layout_weight="0.24" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="Tipo de Obra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_cadl_tipo_obra"
+                    android:textColor="#000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:text="Mangá"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ent_cadl_tp_manga" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="Valor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView4"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/ent_cadl_valor" />
+                    <Button
+                        android:text="Cadastrar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:id="@+id/bt_cadl_cadastrar"
+                        android:textSize="15sp"
+                        android:background="#393939"
+                        android:textColor="?android:attr/fastScrollTextColor"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </LinearLayout>
     </ScrollView>
 
-    <Button
-        android:text="Cadastrar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="99dp"
-        android:id="@+id/bt_cadl_cadastrar"
-        android:textSize="36sp"
-        android:background="@color/botoes_trabalho"
-        android:textColor="?android:attr/fastScrollTextColor"
-        />
-
-    <Button
-        android:text="Cancelar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/bt_cadl_cancelar"
-        android:textSize="36sp"
-        android:background="@color/botoes_trabalho"
-        android:textColor="?android:attr/fastScrollTextColor"
-         />
-
-    <TextView
-        android:text="Autor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_cadl_autor"
-        android:textSize="36sp"
-        android:layout_marginTop="52dp"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/ent_cadl_nome"
-        android:textSize="36sp"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/ent_cadl_descricao"
-        android:textSize="36sp"
-    />
 
 
 </LinearLayout>
