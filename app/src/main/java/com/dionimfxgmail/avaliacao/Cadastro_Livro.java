@@ -1,7 +1,10 @@
 package com.dionimfxgmail.avaliacao;
 
+import android.content.Intent;
 import android.icu.math.BigDecimal;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -13,7 +16,9 @@ import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
-
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import com.dionimfxgmail.avaliacao.R;
 
 /**
@@ -21,6 +26,7 @@ import com.dionimfxgmail.avaliacao.R;
  */
 
 public class Cadastro_Livro extends AppCompatActivity {
+    public static final int NOTIFICATION_ID = 0;
     EditText ent_cadl_nome,ent_cadl_autor,ent_cadl_editora,ent_cadl_valor;
     SeekBar ent_quantidade;
     TextView tv_cadl_qtd;
@@ -29,12 +35,14 @@ public class Cadastro_Livro extends AppCompatActivity {
     String tipomedia;
     CheckBox ent_cadl_tipo_obra;
     int qtd;
-
+    Intent notificationIntent = new Intent(this, Notificacao.class);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         tipomedia="";
         setContentView(R.layout.cadastro_livros);
+
         ent_cadl_nome=(EditText) findViewById(R.id.ent_cadl_nome);
         ent_cadl_autor=(EditText) findViewById(R.id.ent_cadl_autor);
         ent_cadl_editora=(EditText) findViewById(R.id.ent_cadl_editora);
@@ -61,7 +69,9 @@ public class Cadastro_Livro extends AppCompatActivity {
         bt_cadl_cadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String Nome,Autor,Editora,TipoObra,TipoMedia;
+
 
             }
         });
@@ -86,5 +96,27 @@ public class Cadastro_Livro extends AppCompatActivity {
 
 
     }
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT_WATCH)
+    public void notificacao(View view){
+        Intent notificationIntent = new Intent(this,Notificacao.class);
+        Intent cadastrolivroIntent = new Intent(this, Cadastro_Livro.class);
+        Intent consultalivroIntent = new Intent(this, Consulta_Livro.class);
+
+
+        PendingIntent notificationPendingIntent = PendingIntent.getActivity(this, (int) System.currentTimeMillis(), notificationIntent, 0);
+        PendingIntent CadastroPendingIntent = PendingIntent.getActivity(this, (int) System.currentTimeMillis(), cadastrolivroIntent, 0);
+        PendingIntent ConsultaPendingIntent = PendingIntent.getActivity(this, (int) System.currentTimeMillis(), consultalivroIntent, 0);
+
+
+        Notification.Action action01 = new Notification.Action.Builder(R.drawable.ico_livro, "Ação 01", CadastroPendingIntent).build();
+        Notification.Action action02 = new Notification.Action.Builder(R.drawable.lupa, "Ação 02", ConsultaPendingIntent).build();
+
+        String MensagemPequena="Cadastrar e Consultar Livros",MensagemGrande="Cadastrar e Consultar Livros para a coleção se tornou mais facil e pratico.";
+        Notification notification = new Notification.Builder(this).setContentTitle("Avaliação 2").setContentText(MensagemPequena).setStyle(new Notification.BigTextStyle().bigText(MensagemGrande)).setSmallIcon(R.drawable.ico_livro).setContentIntent(notificationPendingIntent)
+                .setAutoCancel(true).addAction(action01).addAction(action02).build();
+        NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        notificationManager.notify(NOTIFICATION_ID, notification);
+    }
+
 
 }
